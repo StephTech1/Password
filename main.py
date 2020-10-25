@@ -9,13 +9,14 @@ while (password1 == password2):
   break 
 if (password1 != password2):
   print ("Your passwords don't match")
+
 #tells the user if password is weak, medium or strong
-strength = str(password1("Is your password good?"))
+strength = str(input("Is your password good?"))
 if (strength > 0 and strength is < 5):
   print("Your password is weak - please choose a stronger one")
 if (strength > 5 and strength is < 8):
   print("Your password is medium - try adding more characters")
-if (strength > 8 and strength <12):
+if (strength > 8 and strength < 12):
   print("Well done, your password strength is strong")
 
 
